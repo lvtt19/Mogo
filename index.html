@@ -5,6 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
    <link rel="stylesheet" href="/mogo/css/style.css">
    <title>MoGO</title>
 </head>
@@ -280,21 +281,56 @@
             </div>
          </div>
          <div class="quote">
-            <div class="container">
-               <div class="quote__body">
-                  <div class="quote__pic">
-                     <img src="/mogo/img/whatwedo/speech.png" alt="speech">
-                  </div>
-                  <div class="quote__text">
-                     <div class="quote__quote">
-                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+            <div class="quote__body">
+               <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <div class="swiper-slide__pic">
+                           <img src="/mogo/img/whatwedo/speech.png" alt="speech">
+                        </div>
+                        <div class="swiper-slide__text">
+                           <div class="swiper-slide__quote">
+                              “Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit beatae saepe error odio
+                              alias. Inventore voluptatem quidem ab labore aliquid minima, culpa mollitia omnis
+                              praesentium?”
+                           </div>
+                           <div class="swiper-slide__sign">
+                              Jon Doe
+                           </div>
+                        </div>
                      </div>
-                     <div class="quote__sign">
-                        Jon Doe
+                     <div class="swiper-slide">
+                        <div class="swiper-slide__pic">
+                           <img src="/mogo/img/whatwedo/speech.png" alt="speech">
+                        </div>
+                        <div class="swiper-slide__text">
+                           <div class="swiper-slide__quote">
+                              “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, accusamus assumenda
+                              sed excepturi dolorem nam!”
+                           </div>
+                           <div class="swiper-slide__sign">
+                              Anna DiAngelo
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide">
+                        <div class="swiper-slide__pic">
+                           <img src="/mogo/img/whatwedo/speech.png" alt="speech">
+                        </div>
+                        <div class="swiper-slide__text">
+                           <div class="swiper-slide__quote">
+                              “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, exercitationem.
+                              Recusandae sapiente fuga iure! Voluptatem hic vero deserunt suscipit deleniti.”
+                           </div>
+                           <div class="swiper-slide__sign">
+                              Marcus Lee
+                           </div>
+                        </div>
                      </div>
                   </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                  <!--<div class="swiper-pagination"></div>-->
                </div>
             </div>
          </div>
@@ -749,10 +785,12 @@
          </div>
       </footer>
    </div>
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
    <script src="/mogo/js/main.js"></script>
    <script src="/mogo/js/spoiler.js"></script>
+   <script src="/mogo/js/slider.js"></script>
 </body>
 
 </html>
